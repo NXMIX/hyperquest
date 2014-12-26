@@ -1,3 +1,11 @@
+# Forker comment
+
+Add timeout to opts.
+
+``` js
+var req = hyperquest(uri, opts={ timeout: 60000}, cb)
+```
+
 # hyperquest
 
 treat http requests as a streaming transport
